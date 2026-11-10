@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="new_magazin/new_magazin.vcxproj" Id="3913a7aa-9c32-44dc-af63-ba9fb6313424" />
+</Solution>
