@@ -10,4 +10,5 @@
 void GetLine(std::wstring& str);
 
 
+
 #endif // !_SERVISFUNS_HPP_

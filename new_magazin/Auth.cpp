@@ -6,10 +6,10 @@ void Start()
 	while (true)
 	{
 		if (Login()) {
-			
+			std::wcout << L"ВХод в аккаунт выполнен ожидаем дольнейших действий ваш профиль - " << currentStatus;
 		}
 		else {
-
+			std::wcout << L"пока ты вышел не захотел входить в ак";
 		}
 	}	
 }
