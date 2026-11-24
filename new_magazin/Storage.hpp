@@ -2,3 +2,6 @@
 #define _STORAGE_HPP_
 
 #endif // !_STORAGE_HPP_
+
+void ChangeStorage();
+void AddNewProduct();

@@ -144,6 +144,7 @@
     <ClCompile Include="Auth.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ServisFuns.cpp" />
+    <ClCompile Include="Storage.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Accounts.hpp" />
