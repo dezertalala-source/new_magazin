@@ -17,4 +17,6 @@ extern std::wstring* statusArr;
 extern size_t* userIdArr;
 
 
+void ChangeAccounts();
+
 #endif // !_ACCOUNTS_HPP_

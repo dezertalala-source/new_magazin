@@ -404,7 +404,7 @@ void ChangeStorage()
 	{
 		system("cls");
 
-		std::wcout << L"\n\n\t\t\t\tРедактировать склад \"Сырный мастер\"\n\n";
+		std::wcout << L"\n\n\t\t\t\tРедактировать склад \"Вкус лепешки\"\n\n";
 		std::wcout << L"1 - Добавить новый товар\n";
 		std::wcout << L"2 - Изменить названия товара\n";
 		std::wcout << L"3 - Удалить товары\n";
@@ -432,7 +432,7 @@ void ChangeStorage()
 		else if (choose == L"0")
 		{
 			std::wcout << L"Выход из редактора склада\n";
-			Sleep(15000);
+			Sleep(1000);
 			break;
 		}
 		else
@@ -558,15 +558,15 @@ void AddNewProduct()
 
 			if (choose == L"1")
 			{
-				std::wcout << L"Расширение склада";
+				std::wstring animationArr[3]{L"\\", L"|", L"/" };
 
-				for (size_t i = 0; i < 5; i++)
-				{
-					Sleep(500);
-					std::wcout << L" .";
+				for (size_t j = 0; j < 3; j++) {
+					for (size_t i = 0; i < 3; i++) {
+						Sleep(250);
+						system("cls");
+						std::wcout << L"Расширение склада " << animationArr[i];
+					}
 				}
-
-				Sleep(500);
 
 				ArrPushBack(idArr, sizeSt);
 				ArrPushBack(nameArr, sizeSt);
