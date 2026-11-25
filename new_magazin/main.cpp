@@ -9,6 +9,25 @@ int main() {
 
 
 	Start();
+	delete[] loginArr;
+	delete[] passArr;
+	delete[] statusArr;
+	delete[] userIdArr;
+
+	if (isStorageCreated)
+	{
+		delete[] idArr;
+		delete[] nameArr;
+		delete[] countArr;
+		delete[] priceArr;
+	}
+
+	if (isListCreated)
+	{
+		delete[] listProduct;
+		delete[] countProduct;
+		delete[] priceProduct;
+	}
 
 
 	return 0;
